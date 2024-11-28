@@ -173,6 +173,8 @@
     xclip
     gh
     qemu_full
+    devenv
+    tmux
   ];
 
   virtualisation.libvirtd.enable = true;
