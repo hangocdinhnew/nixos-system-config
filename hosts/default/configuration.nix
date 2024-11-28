@@ -172,6 +172,7 @@
     wl-clipboard
     xclip
     gh
+    qemu_full
   ];
 
   virtualisation.libvirtd.enable = true;
