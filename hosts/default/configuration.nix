@@ -178,6 +178,13 @@
     vulkan-tools
     lldb
     glfw
+    vulkan-headers
+    vulkan-helper
+    vulkan-loader
+    vulkan-caps-viewer
+    vulkan-extension-layer
+    vulkan-memory-allocator
+    vulkan-validation-layers
   ];
 
   virtualisation.libvirtd.enable = true;
