@@ -177,6 +177,7 @@
     tmux
     vulkan-tools
     lldb
+    glfw
   ];
 
   virtualisation.libvirtd.enable = true;
