@@ -176,6 +176,7 @@
     devenv
     tmux
     vulkan-tools
+    lldb
   ];
 
   virtualisation.libvirtd.enable = true;
