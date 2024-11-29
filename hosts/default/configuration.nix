@@ -185,6 +185,7 @@
     vulkan-extension-layer
     vulkan-memory-allocator
     vulkan-validation-layers
+    xfce.thunar
   ];
 
   virtualisation.libvirtd.enable = true;
