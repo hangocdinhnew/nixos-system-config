@@ -4,8 +4,8 @@ let
   # Clone the repository using fetchGit
   nvimRepo = pkgs.fetchgit {
     url = "https://github.com/hangocdinhnew/nvim-dotfiles.git";
-    rev = "53fdf0dd74d8f76aef02542673eb65b816624229";
-    sha256 = "KYwaYr6jW/Pw4+OghQrUchTD5neMkPJ2Ar/q8vXB8+s=";
+    rev = "bb2bc5c8844cab01aaecb6dfb73f9acbc5848cdf";
+    sha256 = "0q052a4wxyfz68w1qj1hlr3iww2i7lclwfmf85gc3vm9dhgwyg8n";
   };
   
 in
