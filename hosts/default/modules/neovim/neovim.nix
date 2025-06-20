@@ -16,10 +16,8 @@ in
       run rm -rf ${config.home.homeDirectory}/.config/nvim
       run mkdir ${config.home.homeDirectory}/.config/nvim
 
-      # Copy the entire nvimRepo directory to ~/.config/nvim
       run cp -rf ${nvimRepo}/* ${config.home.homeDirectory}/.config/nvim/
 
-      # Ensure the copied files are readable and writable by the user
       run chmod -R u+rw ${config.home.homeDirectory}/.config/nvim/
     '';
   };

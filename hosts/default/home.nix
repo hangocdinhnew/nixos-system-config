@@ -12,6 +12,7 @@
     ./modules/neovim/neovim.nix
     ./modules/plasma/plasma.nix
     ./modules/tmux/tmux.nix
+    ./modules/wezterm/wezterm.nix
   ];
 
   # This value determines the Home Manager release that your configuration is

@@ -95,6 +95,7 @@
       cargo-binutils
       python312Packages.pynvim
       kitty
+      wezterm
       neovim-node-client
       fastfetch
       fish
@@ -194,6 +195,7 @@
     llvmPackages_20.libcxxClang
     llvmPackages_20.libllvm
     clang-tools
+    nix-prefetch-git
   ];
 
   virtualisation.libvirtd.enable = true;
