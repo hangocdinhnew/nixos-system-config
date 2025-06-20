@@ -4,8 +4,8 @@ let
   # Clone the repository using fetchGit
   weztermRepo = pkgs.fetchgit {
     url = "https://github.com/hangocdinhnew/wezterm-config.git";
-    rev = "3707d532f1ca324b656fcb1958e82e07f6870899";
-    sha256 = "1h9rdcxjqa1chsbp1svw0vzyj00imqbxb424hmg3x0rbj8jphrck";
+    rev = "be440032c716e8a46155de9306f65f96ffa037e7";
+    sha256 = "18mn2hj5pfc9kc1y38d54hj9l22dskyfvgs8km644drc4ssfsbbw";
   };
   
 in
