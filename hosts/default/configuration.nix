@@ -200,7 +200,7 @@
     hyprland-qtutils
     hyprland-protocols
     hyprland-workspaces
-    rofi-wayland
+    wl-clipboard
   ];
 
   virtualisation.libvirtd.enable = true;
