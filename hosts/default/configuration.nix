@@ -201,6 +201,7 @@
     hyprland-protocols
     hyprland-workspaces
     rofi-wayland
+    waybar
   ];
 
   virtualisation.libvirtd.enable = true;

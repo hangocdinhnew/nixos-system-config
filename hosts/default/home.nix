@@ -15,6 +15,7 @@
     ./modules/wezterm/wezterm.nix
     ./modules/hyprland/hyprland.nix
     ./modules/rofi/rofi.nix
+    ./modules/waybar/waybar.nix
   ];
 
   # This value determines the Home Manager release that your configuration is
