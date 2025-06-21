@@ -13,7 +13,7 @@ in
   programs.rofi = {
     enable = true;
     plugins = [pkgs.rofi-emoji];
-  }
+  };
 
   home.activation = {
       copyrofiRepo = lib.hm.dag.entryAfter ["writeBoundary"] ''
