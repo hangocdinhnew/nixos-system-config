@@ -13,12 +13,12 @@ in
 
   home.activation = {
       copyhyprlandRepo = lib.hm.dag.entryAfter ["writeBoundary"] ''
-      run rm -rf ${config.home.homeDirectory}/.config/hyprland
-      run mkdir ${config.home.homeDirectory}/.config/hyprland
+      run rm -rf ${config.home.homeDirectory}/.config/hypr
+      run mkdir ${config.home.homeDirectory}/.config/hypr
 
-      run cp -rf ${hyprlandRepo}/* ${config.home.homeDirectory}/.config/hyprland/
+      run cp -rf ${hyprlandRepo}/* ${config.home.homeDirectory}/.config/hypr/
 
-      run chmod -R u+rw ${config.home.homeDirectory}/.config/hyprland/
+      run chmod -R u+rw ${config.home.homeDirectory}/.config/hypr/
     '';
   };
 }
