@@ -199,6 +199,8 @@
     hyprland
     hyprland-qtutils
     hyprland-protocols
+    hyprland-workspaces
+    rofi-wayland
   ];
 
   virtualisation.libvirtd.enable = true;
