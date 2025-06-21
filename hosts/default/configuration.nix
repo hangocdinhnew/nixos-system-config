@@ -196,6 +196,9 @@
     llvmPackages_20.libllvm
     clang-tools
     nix-prefetch-git
+    hyprland
+    hyprland-qtutils
+    hyprland-protocols
   ];
 
   virtualisation.libvirtd.enable = true;
