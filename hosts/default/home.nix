@@ -13,6 +13,7 @@
     ./modules/plasma/plasma.nix
     ./modules/tmux/tmux.nix
     ./modules/wezterm/wezterm.nix
+    ./modules/hyprland/hyprland.nix
   ];
 
   # This value determines the Home Manager release that your configuration is
