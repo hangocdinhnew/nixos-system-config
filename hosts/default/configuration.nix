@@ -139,7 +139,6 @@
     findutils
     flex
     gawk
-    gcc
     gettext
     gnugrep
     groff
@@ -180,8 +179,6 @@
     tmux
     vulkan-tools
     lldb
-    glfw
-    vulkan-headers
     vulkan-helper
     vulkan-loader
     vulkan-caps-viewer
@@ -194,9 +191,6 @@
     chafa
     ueberzugpp
     ast-grep
-    llvmPackages_20.libcxxClang
-    llvmPackages_20.libllvm
-    clang-tools
     nix-prefetch-git
     hyprland
     hyprland-qtutils
