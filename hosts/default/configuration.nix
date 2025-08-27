@@ -94,7 +94,6 @@
     packages = with pkgs; [
       tree
       floorp
-      cargo-binutils
       python312Packages.pynvim
       kitty
       wezterm
@@ -120,7 +119,6 @@
 
   programs.neovim = {
     enable = true;
-    package = inputs.neovim-nightly-overlay.packages.${pkgs.system}.default;
   };
 
   # List packages installed in system profile. To search, run:
