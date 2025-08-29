@@ -16,6 +16,7 @@
     ./modules/hyprland/hyprland.nix
     ./modules/rofi/rofi.nix
     ./modules/waybar/waybar.nix
+    ./modules/emacs/emacs.nix
   ];
 
   # This value determines the Home Manager release that your configuration is
@@ -85,6 +86,11 @@
   #
   home.sessionVariables = {
     # EDITOR = "emacs";
+  };
+
+  programs.emacs = {
+    enable = true;
+    package = pkgs.emacs;
   };
 
   # Let Home Manager install and manage itself.
