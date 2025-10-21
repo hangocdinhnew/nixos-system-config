@@ -93,8 +93,7 @@
     extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
     packages = with pkgs; [
       tree
-      floorp
-      python312Packages.pynvim
+      ungoogled-chromium
       kitty
       wezterm
       neovim-node-client
@@ -102,6 +101,7 @@
       fish
       markdownlint-cli2
       nodePackages_latest.prettier
+      python314Packages.pynvim
     ];
   };
 
@@ -151,7 +151,6 @@
     which
     rustup
     nodejs
-    python3Full
     lua51Packages.luarocks
     git
     lazygit
@@ -164,8 +163,6 @@
     zulu23
     zulu17
     zulu8
-    julia
-    python312Packages.pip
     tree-sitter
     texliveFull
     texlivePackages.latex
@@ -194,8 +191,12 @@
     hyprland-qtutils
     hyprland-protocols
     hyprland-workspaces
-    rofi-wayland
+    rofi
     waybar
+    btop
+    python314
+    python311
+    python314Packages.pip
   ];
 
   virtualisation.libvirtd.enable = true;

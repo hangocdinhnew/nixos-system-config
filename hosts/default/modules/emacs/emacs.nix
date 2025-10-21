@@ -1,13 +1,11 @@
 { config, pkgs, lib, ... }:
 
 let
-  # Clone the repository using fetchGit
   emacsRepo = pkgs.fetchgit {
     url = "https://github.com/hangocdinhnew/emacs-config";
-    rev = "a8bdfc282ec8243c1c8eb83e2c25c5dbd358b674";
-    sha256 = "lygkcY4jLw07yykHySWOwjptJyMm6xSk5IJUjtoHbZA=";
+    rev = "a78e6c06ead316a4257b6b59d210cb4b2fd05a39";
+    sha256 = "16b10id8i06c20zi875h2kg0lnlcbs7b58lah6shqfb3wflgyd5a";
   };
-  
 in
 {
 
